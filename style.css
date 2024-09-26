@@ -1,0 +1,112 @@
+/* DC */
+.DCImages {
+    width: 150px;
+    height: 350px;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif
+}
+h2{
+    width: 150px;
+    font-size: 1rem;
+    text-align: center;
+    font-family:monospace;
+}
+.DCDiv{
+    background-color: #172528;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+#aquamanPic, #cyborgPic, #flashPic {
+    object-fit: cover;
+}
+#superManPic {
+    object-fit: cover;
+    object-position: -35px 0px ;
+}
+#batManPic {
+    object-fit: cover; 
+}
+#wonderWomanPic {
+    object-fit: cover;
+    object-position: -250px 0px ;
+}
+#greenLanternPic {
+    object-fit: cover;
+    object-position: -360px 0px ;
+}
+.supermanDiv {
+    display: inline-block;
+}
+.batManDiv {
+    display: inline-block;
+}
+
+.wonderWomanDiv {
+    display: inline-block;
+}
+.greenLanternDiv {
+    display: inline-block;
+}
+.flashDiv {
+    display: inline-block;
+}
+.aquamanDiv {
+    display: inline-block;
+}
+.cyborgDiv {
+    display: inline-block;
+}
+
+/* One Piece */
+.onePieceImage{
+    width: 90px;
+    height: 450px;
+    object-fit: cover;
+
+}
+.franky{
+    object-position: -40px 0px;
+}
+.chopper{
+    object-position: -130px 0px;
+}
+.usoppZoro{
+    object-position: -220px 0px;
+}
+.luffy{
+    object-position: -310px 0px;
+}
+.nami{
+    object-position: -400px 0px;
+}
+/* .sanji{
+    object-position: -500px 0px;
+
+} */
+.sanjiRobin{
+    object-position: -495px 0px;
+}
+.brook{
+    object-position: -588px 0px;
+}
+.onePieceDiv {
+    background-color:#40b0e5;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    margin-left: 0px;
+    padding-bottom: 15px;
+}
+
+.DCHead::before {
+    content: url("./images/batman.png");
+    margin: 10px;
+}
+.onePieceHead::before {
+    content: url("./images/pirate-ship.png");
+    margin: 10px;
+}
